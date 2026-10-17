@@ -1,0 +1,30 @@
+{
+  "config_sha256": "8e45bab05e6152b2b8eb6f02fc0945b41cfadd9f4cf86a11dc3a28abcf34089f",
+  "configuration": {
+    "data_dir": "fixtures",
+    "methods": [
+      "B1",
+      "B2",
+      "B3",
+      "Traceline"
+    ],
+    "nlos_threshold_argument": null,
+    "output_dir": ".",
+    "predictions_dir": "fixtures\\predictions",
+    "script": "run_eval.py",
+    "sigma_bins": 10,
+    "split": "dev"
+  },
+  "dependency_versions": {
+    "matplotlib": "3.10.9",
+    "numpy": "2.4.4",
+    "pandas": "3.0.3",
+    "pytest": "9.1.1"
+  },
+  "generated_at_utc": "2026-10-17T13:24:55.468860+00:00",
+  "git_commit": null,
+  "python_version": "3.14.4",
+  "seed": null,
+  "summary_file": "reports\\metrics_summary.json",
+  "truth_rows_scored": 960
+}

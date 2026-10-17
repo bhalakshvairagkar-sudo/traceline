@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest & testing caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Temporary generated test run outputs
+demo_outputs/
+eval_output/
+outputs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Hidden-set truth and labels (Strict rule: never commit to Git)
+_private/

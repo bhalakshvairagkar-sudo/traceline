@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "venue_id": "hospital",
+  "width_m": 7.0,
+  "height_m": 5.0,
+  "anchors": [
+    {
+      "anchor_id": 0,
+      "x_m": 0.0,
+      "y_m": 0.0,
+      "enabled": true,
+      "anchor_type": "fixture"
+    },
+    {
+      "anchor_id": 1,
+      "x_m": 7.0,
+      "y_m": 0.0,
+      "enabled": true,
+      "anchor_type": "fixture"
+    },
+    {
+      "anchor_id": 2,
+      "x_m": 7.0,
+      "y_m": 5.0,
+      "enabled": true,
+      "anchor_type": "fixture"
+    },
+    {
+      "anchor_id": 3,
+      "x_m": 0.0,
+      "y_m": 5.0,
+      "enabled": true,
+      "anchor_type": "fixture"
+    }
+  ],
+  "walls": [],
+  "obstacles": [],
+  "zones": [
+    {
+      "zone_id": "crowd-a",
+      "zone_type": "crowd",
+      "polygon": [
+        [
+          3.0,
+          0.5
+        ],
+        [
+          5.0,
+          0.5
+        ],
+        [
+          5.0,
+          4.8
+        ],
+        [
+          3.0,
+          4.8
+        ]
+      ],
+      "name": "Fixture crowd region"
+    }
+  ],
+  "metadata": {
+    "synthetic_fixture_only": true
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "config_sha256": "4da0a8ec30e83d25a78fe33caf757b69faee7f9b462ff26d03269c5a0ab2b0f1",
+  "configuration": {
+    "methods": [
+      "B1",
+      "B2",
+      "B3",
+      "Traceline"
+    ],
+    "n_dev_runs": 4,
+    "n_train_runs": 4,
+    "purpose": "synthetic smoke test only",
+    "script": "make_fixture.py",
+    "seed": 73,
+    "steps_per_run": 240
+  },
+  "dependency_versions": {
+    "matplotlib": "3.10.8",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "pytest": "9.0.2"
+  },
+  "generated_at_utc": "2026-10-16T14:09:52.187870+00:00",
+  "git_commit": null,
+  "not_performance_evidence": true,
+  "python_version": "3.13.5",
+  "seed": 73
+}

@@ -1,0 +1,9 @@
+run_id,noise_level,noise_multiplier,drift_condition,drift_rate_m_per_s,outlier_condition,dropout_duration_steps,scenario_id
+hospital-train-0001,moderate,1.0,absent,0.0,absent,0,fixture-train-0001
+hospital-train-0002,high,1.5,absent,0.0,absent,2,fixture-train-0002
+hospital-train-0003,moderate,1.0,absent,0.0,present,0,fixture-train-0003
+hospital-train-0004,high,1.5,present,0.005,absent,0,fixture-train-0004
+hospital-dev-0001,moderate,1.0,absent,0.0,absent,0,fixture-dev-0001
+hospital-dev-0002,high,1.5,absent,0.0,absent,2,fixture-dev-0002
+hospital-dev-0003,moderate,1.0,absent,0.0,present,0,fixture-dev-0003
+hospital-dev-0004,high,1.5,present,0.005,absent,0,fixture-dev-0004

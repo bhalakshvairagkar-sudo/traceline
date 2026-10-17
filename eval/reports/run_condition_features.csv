@@ -1,0 +1,5 @@
+run_id,venue_id,split,active_anchor_count,packet_loss_rate_observed,nlos_fraction_observed,crowd_density_mean_people_m2,noise_level,noise_multiplier,drift_condition,outlier_condition,dropout_duration_steps
+hospital-dev-0001,hospital,dev,4,0.05,0.004166666666666667,0.775,moderate,1.0,absent,absent,0
+hospital-dev-0002,hospital,dev,4,0.06354166666666666,0.00625,0.775,high,1.5,absent,absent,2
+hospital-dev-0003,hospital,dev,4,0.052083333333333336,0.004166666666666667,0.7366666666666667,moderate,1.0,absent,present,0
+hospital-dev-0004,hospital,dev,4,0.05416666666666667,0.00625,0.7558333333333334,high,1.5,present,absent,0
